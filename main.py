@@ -6,3 +6,4 @@ model = nn.Linear(3,4)
 output1 = model(input) # 得到输出方式1
 output2 = nn.functional.linear(input, model.weight, model.bias) # 得到输出方式2
 print(output1 == output2)
+# test git
